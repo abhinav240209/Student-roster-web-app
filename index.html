@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>
+        Student roster web app
+</title>
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+</head>
+<body>
+ 
+    <h2>List of students in my class</h2>
+    <div>
+        <span>1.</span> <input type="text" placeholder="name of the student" id="name_of_student_1">
+        
+    </div>
+    <div>
+        <span>2.</span> <input type="text" placeholder="name of the student" id="name_of_student_2">
+        
+    </div>
+    <div>
+        <span>3.</span> <input type="text" placeholder="name of the student" id="name_of_student_3">
+        
+    </div>
+    <div>
+        <span>4.</span> <input type="text" placeholder="name of the student" id="name_of_student_4">
+        
+    </div>
+    <div id="displaynames"></div>
+    <br>
+    <br>
+    <div id="sortednames"></div>
+    <button id="submit_button" onclick="submit()">Submit</button>
+     <button id="sort_button" onclick="sorting()">Sort</button>
+</body>
+</html>
